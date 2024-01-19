@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Mogra&display=swap');
+
+
+body{
+    background-color: #000000;
+    font-family: "Lilita One";
+    color: #FFF;
+
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.menu_logo{
+    max-width: 150px;
+}
+
+.menu_listra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu_listra_item{
+    text-decoration: none;
+    font-size: 24px;
+    color: #ff5c81;
+    font-family: 'Press Start 2P', system-ui;
+}
+
+.menu_curriculo{
+    background-color: #ff5c81;
+    color: white;
+    font-family: 'Press Start 2P', system-ui;
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.banner{
+    background-image: url("https://steamuserimages-a.akamaihd.net/ugc/2438013375536940927/D370DBF7BFC83ED36F783F08A598FFF3E71A1D61/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+banner_infos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 70vh;
+    background-color: rgba(0, 0, 0, 0.663);
+    gap: 20px;
+    height: 55vh;
+    padding: 50px;
+    border-radius: 0px 0px 20px 20px ;
+}
+
+.banner_infos_imagem{
+    max-width: 300px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.banner_infos_nome{
+    font-family: 'Press Start 2P', system-ui;
+    font-size: 40px;
+    color: white;
+}
+
+.banner_infos_cargo{
+    font-family: 'Press Start 2P', system-ui;
+    font-size: 20px;
+    color: #ff5c81;
+    
+}
+
+.sobre{
+ max-width: 80vw;   
+ margin: 60 auto;
+ border-top: 10px solid #ff5c81;
+ border-bottom: 10px solid #ff5c81;
+ display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.sobre_infos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.sobre_infos_titulo{
+    font-size: 50px;
+    font-family: 'Press Start 2P', system-ui;
+}
+
+.sobre_infos_texto{
+    font-size: 24px;
+    line-height: 1.5;
+}
